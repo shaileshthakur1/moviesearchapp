@@ -36,7 +36,7 @@ export default function MovieSearchScreen() {
       const data = await response.json();
       const movies = data.Search || [];
   
-      // Save each searched movie to history
+    
       movies.forEach((movie: { Title: string; imdbID: string }) => {
         saveSearchHistory(movie);
       });
@@ -50,12 +50,11 @@ export default function MovieSearchScreen() {
   };
   
   const handleSelectMovie = (movie: { imdbID: string; Title: string; Year: string }) => {
-    saveSearchHistory(movie); // Save clicked movie
+    saveSearchHistory(movie); 
     router.push(`/${movie.imdbID}`);
   };
   
-  // Your saveSearchHistory function as defined earlier
-  const saveSearchHistory = async (movie: { Title: string; imdbID: string }) => {
+    const saveSearchHistory = async (movie: { Title: string; imdbID: string }) => {
     const newEntry = {
       query: movie.Title,
       id: movie.imdbID,
@@ -66,7 +65,7 @@ export default function MovieSearchScreen() {
       const existingHistory = await AsyncStorage.getItem('searchHistory');
       const historyArray = existingHistory ? JSON.parse(existingHistory) : [];
   
-      // Avoid duplicates
+      
       const isDuplicate = historyArray.some((item: { id: string; }) => item.id === movie.imdbID);
       if (!isDuplicate) {
         historyArray.push(newEntry);
@@ -108,7 +107,7 @@ export default function MovieSearchScreen() {
         )}
         ListEmptyComponent={() => (
           <ImageBackground
-              source={{ uri: './assets/images/bg3.png' }} // Replace with your desired image URL
+              source={{ uri: './assets/images/bg3.png' }} 
               style={styles.emptyBackground}
               resizeMode="cover"
             >

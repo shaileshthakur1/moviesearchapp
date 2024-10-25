@@ -4,15 +4,15 @@ export default function Layout() {
   return (
     <Tabs>
       <Tabs.Screen
-        name="index" // Movie Search Screen
+        name="index" 
         options={{ title: 'Search Movies' }}
       />
       <Tabs.Screen
-        name="[movie]" // Movie Details Screen
+        name="[movie]" 
         options={{ title: 'Movie Details' }}
       />
       <Tabs.Screen
-        name="searchHistory" // Search History Screen
+        name="searchHistory" 
         options={{ title: 'Search History' }}
       />
     </Tabs>
