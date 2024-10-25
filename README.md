@@ -1,6 +1,7 @@
-# Welcome to your MovieSearchApp 👋
+# Welcome to your MovieSearchApp 👋 [Watch Demo(click here)](https://drive.google.com/file/d/1aNEYhBjlrUjIEkKJ2UaJabkSt3F1JNmL/view?usp=drive_link)
 
-[![Video](https://www.tella.tv/video/cm2ocs8fe000d03ibfg1haifz/embed?b=1&title=1&a=1&loop=0&t=0&muted=0&wt=1)](https://www.tella.tv/video/cm2ocs8fe000d03ibfg1haifz/embed?b=1&title=1&a=1&loop=0&t=0&muted=0&wt=1)
+![image](https://github.com/user-attachments/assets/a574f3e1-25fc-46a5-a6a6-0781ce098b76)
+
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
