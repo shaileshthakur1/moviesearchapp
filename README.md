@@ -1,4 +1,6 @@
-# Welcome to your Expo app 👋
+# Welcome to your MovieSearchApp 👋
+
+[![Video](https://www.tella.tv/video/cm2ocs8fe000d03ibfg1haifz/embed?b=1&title=1&a=1&loop=0&t=0&muted=0&wt=1)](https://www.tella.tv/video/cm2ocs8fe000d03ibfg1haifz/embed?b=1&title=1&a=1&loop=0&t=0&muted=0&wt=1)
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
