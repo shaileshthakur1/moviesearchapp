@@ -1,4 +1,4 @@
-# Welcome to your MovieSearchApp 👋 
+# MovieSearchApp 👋 
 [Watch Demo(click here)👈🏻](https://drive.google.com/file/d/1aNEYhBjlrUjIEkKJ2UaJabkSt3F1JNmL/view?usp=drive_link)
 
 ![image](https://github.com/user-attachments/assets/a574f3e1-25fc-46a5-a6a6-0781ce098b76)
